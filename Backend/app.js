@@ -7,8 +7,7 @@ import cors from "cors";
 const app = express(); //creating object
 
 app.use(express.json());
-const cors = require('cors');
-app.use(cors({ origin: 'https://bookstore-1-8njm.onrender.com' }));
+app.use(cors());
 
 const PORT = process.env.PORT;
 
