@@ -8,7 +8,7 @@ const app = express(); //creating object
 
 app.use(express.json());
 const cors = require('cors');
-app.use(cors({ origin: 'https://your-frontend-url.onrender.com' }));
+app.use(cors({ origin: 'https://bookstorefrontend-55y5.onrender.com' }));
 
 
 const PORT = process.env.PORT;
